@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.1">
+  <diagram name="Página-1" id="zCmsmUU4U3FBMWB6ayuV">
+    <mxGraphModel dx="629" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RdoNcve06VgWnHn2P4X--1" value="Inicio" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="270" y="130" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RdoNcve06VgWnHn2P4X--2" value="&lt;span style=&quot;color: rgb(26, 26, 26);&quot;&gt;Mostrar mensaje: &quot;Por favor, ingrese una palabra&quot;&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="300" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RdoNcve06VgWnHn2P4X--3" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="311" y="210" as="sourcePoint" />
+            <mxPoint x="311" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RdoNcve06VgWnHn2P4X--4" value="&lt;span style=&quot;color: rgb(26, 26, 26);&quot;&gt;Definir la variable cantidad_letras y asignarle la longitud de palabra_ingresada&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="443" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RdoNcve06VgWnHn2P4X--5" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RdoNcve06VgWnHn2P4X--2" target="RdoNcve06VgWnHn2P4X--4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="430" as="sourcePoint" />
+            <mxPoint x="350" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RdoNcve06VgWnHn2P4X--6" value="&lt;span style=&quot;color: rgb(26, 26, 26);&quot;&gt;Mostrar mensaje: &quot;La palabra ingresada tiene&quot;, cantidad_letras, &quot;letras.&quot;&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="566" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RdoNcve06VgWnHn2P4X--7" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="RdoNcve06VgWnHn2P4X--6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="500" as="sourcePoint" />
+            <mxPoint x="350" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RdoNcve06VgWnHn2P4X--8" value="Fin" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="260" y="712" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RdoNcve06VgWnHn2P4X--9" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.415;exitY=0.975;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="RdoNcve06VgWnHn2P4X--6" target="RdoNcve06VgWnHn2P4X--8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="650" as="sourcePoint" />
+            <mxPoint x="350" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
